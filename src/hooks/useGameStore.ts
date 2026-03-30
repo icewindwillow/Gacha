@@ -21,7 +21,6 @@ const GACHA_RATES: Record<Rarity, number> = {
   'N': 0.50,
 };
 
-const GEM_PRICE = 1; // 1 balance = 10 gems
 const GACHA_SINGLE_COST = 160;
 const GACHA_TEN_COST = 1600;
 
