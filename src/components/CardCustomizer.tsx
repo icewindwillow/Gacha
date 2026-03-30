@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { Card, Rarity } from '../types';
 import { X, Plus, Image as ImageIcon } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 interface CardCustomizerProps {
   onAdd: (card: Omit<Card, 'id'>) => void;
